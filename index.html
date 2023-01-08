@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script type="text/javascript" src="javascript/script.js"></script>
+    <title>Challenge 1 Alura + Oracle</title>
+</head>
+<body>
+
+        <section class="fondo">
+
+            <div class="contenedor">
+        
+
+                <div class="alura">
+                <img class="logoalura" src="img/torre.png" alt="">
+                <h1 class="titulo">Encriptador de texto</h1>
+                </div>
+            
+                <div class="izquierdo">
+                <input type="text" class="texto" id="texto" placeholder="Introduzca el texto">
+                 </div>
+        
+                <div class="derecho">
+                <img src="img/acceso.png" id="boveda">
+                <h2 class="textodos"id="textodos">Ningun mensaje encriptado</h2>
+                <textarea id="textarea" cols="80" rows="8">Ingrese el texto a encriptar o desencriptar.</textarea>
+                <button id="copiar" type="button" name="button" onclick="copy()" > ¿Copiar? </button>
+                </div>
+    
+                <div class="botones">
+
+                <p class="condicional"><img src="img/buda.png" class="regla"> Solo letras minusculas y sin acentos</p>
+                <button type="button" id="codifique" onclick="criptar()">Encriptar</button>
+                <button type="button" id="decodifique" onclick="descriptar()">Desencriptar</button>
+                </div>    
+             </div>
+        </section>
+
+        
+    </body>
+</html>
